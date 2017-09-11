@@ -1,6 +1,6 @@
 package example;
 
-public class Example extends Exception {
+public class Example {
 
     public Example() {
         this(Example.exception());
