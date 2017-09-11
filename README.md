@@ -12,6 +12,18 @@ javac example/Example.java
 java -javaagent:target/javassist-bugreport-1.0-SNAPSHOT-agent.jar example.Example
 ```
 
+### Output
+
+```
+before main
+before Example
+before exception
+after exception
+catch exception
+after main
+catch main
+```
+
 ### Expected output
 
 ```
