@@ -39,3 +39,15 @@ catch main
 ```
 
 The lines marked with `>` are missing.
+
+### Environment
+
+```
+$ java -version
+openjdk version "1.8.0_131"
+OpenJDK Runtime Environment (build 1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11)
+OpenJDK 64-Bit Server VM (build 25.131-b11, mixed mode)
+```
+
+Javassist version: `3.22.0-CR2`.
+(I tried different ones, same result).
